@@ -1,0 +1,8 @@
+# Drupal version menu items definition
+entity.drupal_version.collection:
+  title: 'Drupal version'
+  route_name: entity.drupal_version.collection
+  description: 'List Drupal version (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

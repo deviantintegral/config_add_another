@@ -1,0 +1,30 @@
+config_add_another.drupal_version.*:
+  type: config_entity
+  label: 'Drupal version config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
+    major_version:
+      type: integer
+      label: 'Drupal major version'
+    releases:
+      type: sequence
+      label: 'Drupal releases'
+      sequence:
+        type: mapping
+        mapping:
+          patch_version:
+            type: integer
+            label: 'Patch version'
+          minor_version:
+            type: integer
+            label: 'Minor version'
+          security_release:
+            type: boolean
+            label: 'Security release'

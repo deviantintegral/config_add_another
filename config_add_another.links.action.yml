@@ -1,0 +1,6 @@
+entity.drupal_version.add_form:
+  route_name: 'entity.drupal_version.add_form'
+  title: 'Add Drupal version'
+  appears_on:
+    - entity.drupal_version.collection
+
