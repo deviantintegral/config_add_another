@@ -1,0 +1,21 @@
+uuid: 19b4ce0e-a8f7-4274-a200-f3adbbe115ce
+langcode: en
+status: true
+dependencies: {  }
+id: drupal_8
+label: 'Drupal 8'
+major_version: 8
+releases:
+  -
+    minor_version: 0
+    patch_version: 0
+    security_release: false
+  -
+    minor_version: 0
+    patch_version: 1
+    security_release: true
+  -
+    minor_version: 0
+    patch_version: 2
+    security_release: false
+
